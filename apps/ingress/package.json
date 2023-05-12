@@ -1,12 +1,16 @@
 {
   "name": "@graysky/ingress",
   "version": "1.0.0",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "tsx src/index.ts",
     "start": "tsx src/index.ts"
   },
   "license": "MIT",
   "dependencies": {
+    "@atproto/api": "^0.2.11",
+    "@atproto/repo": "^0.1.0",
+    "@atproto/xrpc-server": "^0.2.0",
     "@planetscale/database": "^1.7.0",
     "kysely": "^0.24.2",
     "kysely-planetscale": "^1.3.0"
